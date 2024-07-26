@@ -1,0 +1,52 @@
+.container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu {
+            flex: 0 0 200px; 
+            margin-top: 30px;
+            margin-left: 20px; 
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .menu nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu nav ul li {
+            margin-bottom: 10px; 
+        }
+
+        .menu nav ul li a {
+    font-size: 24px; 
+    text-decoration: none;
+    color: #333;
+    transition: color 1.3s;
+}
+
+.menu nav ul li a:hover {
+    color: #555;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
